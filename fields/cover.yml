@@ -1,0 +1,12 @@
+type: files
+label: Hauptbild der Seite
+layout: cards
+size: small
+query: site.find("gallery")
+uploads: 
+  parent: site.find("gallery")
+  template: gallery
+max: 1
+image:
+  ratio: 1/1
+  cover: false

@@ -1,0 +1,23 @@
+type: structure
+label: Infos (Links & Downloads)
+fields:
+  name:
+    type: text
+    label: Bezeichnung
+  infoToggle:
+    type: toggles
+    label: Typ
+    options:
+      - Download
+      - Link
+  download:
+    type: files
+    label: Download
+    max: 1
+    when:
+      infoToggle: Download
+  url:
+    type: url
+    label: Link
+    when:
+      infoToggle: Link    

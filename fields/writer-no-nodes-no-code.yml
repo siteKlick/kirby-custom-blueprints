@@ -1,0 +1,9 @@
+label: writer-only-text
+type: writer
+nodes: false
+marks: 
+  - bold
+  - italic
+  - underline
+  - link
+  - email

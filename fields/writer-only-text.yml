@@ -1,0 +1,9 @@
+label: writer-only-text
+type: writer
+nodes:
+  - bulletList
+  - orderedList
+marks: 
+  - bold
+  - italic
+  - underline

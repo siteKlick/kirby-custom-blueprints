@@ -1,0 +1,11 @@
+type: writer
+label: Text
+nodes:
+  - bulletList
+  - orderedList
+marks: 
+  - bold
+  - italic
+  - underline
+  - link
+  - email

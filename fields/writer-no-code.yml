@@ -1,0 +1,12 @@
+type: writer
+nodes:
+  - h2
+  - h3
+  - bulletList
+  - orderedList
+marks: 
+  - bold
+  - italic
+  - underline
+  - link
+  - email
