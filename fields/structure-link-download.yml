@@ -10,12 +10,15 @@ fields:
     options:
       - Download
       - Link
+    width: 2/3
   download:
     type: files
-    label: Download
+    label: Datei
     max: 1
     when:
       infoToggle: Download
+    uploads: 
+      template: files
   url:
     type: url
     label: Link
